@@ -10,6 +10,9 @@ import statsData from './Statistics/statistics-data.json';
 import FriendsList from './FriendList/FriendList';
 import friendsData from './friends.json';
 
+import TransactionHistory from './TransactionHistory/TransactionHistory';
+import transationsData from './transactions.json';
+
 const App = () => (
   // React Fragment - так как для рендеринга нескольких элементов нужен общий родитель.
   <>
@@ -18,6 +21,7 @@ const App = () => (
       <StatList stats={statsData} />
     </Statistics>
     <FriendsList friends={friendsData} />
+    <TransactionHistory items={transationsData} />
   </>
 );
 
