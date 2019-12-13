@@ -1,0 +1,33 @@
+.status {
+}
+
+.avatar {
+  display: block;
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+}
+
+.name {
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.online::before {
+  display: inline-block;
+  content: ' ';
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: rgb(9, 172, 9);
+}
+
+.offline::before {
+  display: inline-block;
+  content: ' ';
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: rgb(187, 14, 14);
+}

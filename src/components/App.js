@@ -7,6 +7,9 @@ import Statistics from './Statistics/Statistics';
 import StatList from './StatList/StatList';
 import statsData from './Statistics/statistics-data.json';
 
+import FriendsList from './FriendList/FriendList';
+import friendsData from './friends.json';
+
 const App = () => (
   // React Fragment - так как для рендеринга нескольких элементов нужен общий родитель.
   <>
@@ -14,6 +17,7 @@ const App = () => (
     <Statistics title="Statistics title">
       <StatList stats={statsData} />
     </Statistics>
+    <FriendsList friends={friendsData} />
   </>
 );
 
