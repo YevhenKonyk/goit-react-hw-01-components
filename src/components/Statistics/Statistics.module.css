@@ -1,0 +1,21 @@
+.statistics {
+  width: 428px;
+  padding: 20px 0;
+  background-color: #e7ecf2;
+}
+
+.container {
+  width: 400px;
+  margin: 0 auto;
+  background-color: white;
+}
+
+.title {
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: rgb(71, 89, 101);
+  text-align: center;
+  padding-top: 30px;
+  margin-bottom: 30px;
+}
