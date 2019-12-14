@@ -1,4 +1,8 @@
 .status {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
 }
 
 .avatar {
@@ -14,20 +18,12 @@
   text-transform: capitalize;
 }
 
-.online::before {
-  display: inline-block;
-  content: ' ';
-  width: 15px;
-  height: 15px;
-  border-radius: 50%;
+.online {
+  composes: status;
   background-color: rgb(9, 172, 9);
 }
 
-.offline::before {
-  display: inline-block;
-  content: ' ';
-  width: 15px;
-  height: 15px;
-  border-radius: 50%;
+.offline {
+  composes: status;
   background-color: rgb(187, 14, 14);
 }
