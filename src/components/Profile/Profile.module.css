@@ -65,7 +65,7 @@
   padding: 20px 0;
 }
 
-.stats li {
+.statsItem {
   display: flex;
   flex-direction: column;
   align-content: center;
